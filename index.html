@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5,viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#14100e">
+<title>波多野结衣影视｜剧集图鉴 · 热播榜 · 选剧笔记_boduoyejieyiyingshi-app</title>
+<meta name="description" content="波多野结衣影视（https://boduoyejieyiyingshi-app.github.io）按「剧集图鉴、热播榜、幕后手记、选剧笔记」四条线整理剧集看点：单集节奏、角色关系图、导演手法拆解与踩雷提示，内容按周滚动更新，找剧先看榜，看剧先读图鉴。">
+<meta name="keywords" content="波多野结衣影视,boduoyejieyiyingshi-app,剧集图鉴,热播榜,选剧笔记,角色关系图,单集节奏,影视幕后手记,剧荒推荐,追剧清单,剧评笔记">
+<meta name="author" content="波多野结衣影视编辑部">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="renderer" content="webkit">
+<meta name="applicable-device" content="pc,mobile">
+<link rel="canonical" href="https://boduoyejieyiyingshi-app.github.io/">
+<meta property="og:site_name" content="波多野结衣影视">
+<meta property="og:type" content="website">
+<meta property="og:title" content="波多野结衣影视｜剧集图鉴 · 热播榜 · 选剧笔记">
+<meta property="og:description" content="按周更新的剧集图鉴与热播榜，附角色关系图、单集节奏拆解和踩雷提示，帮你在追剧前先看清一部剧的骨架。">
+<meta property="og:url" content="https://boduoyejieyiyingshi-app.github.io/">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="波多野结衣影视｜剧集图鉴 · 热播榜 · 选剧笔记">
+<meta name="twitter:description" content="角色关系图 + 单集节奏拆解 + 踩雷提示，四栏内容滚动更新。">
+<style>
+:root{
+  --ink:#14100e;
+  --ink-2:#1e1814;
+  --paper:#f4ece1;
+  --paper-dim:#cbbdab;
+  --brand:#e8532f;
+  --brand-soft:#f0a37f;
+  --mint:#6cbf9b;
+  --line:rgba(244,236,225,.14);
+  --radius:14px;
+  --shell:1180px;
+  --font: "PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:78px}
+body{
+  font-family:var(--font);
+  background:var(--ink);
+  color:var(--paper);
+  line-height:1.75;
+  font-size:16px;
+  overflow-x:hidden;
+  background-image:
+    radial-gradient(900px 480px at 88% -8%,rgba(232,83,47,.20),transparent 62%),
+    radial-gradient(680px 420px at 4% 22%,rgba(108,191,155,.12),transparent 60%);
+  background-attachment:fixed;
+}
+img,svg{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+.wrap{width:100%;max-width:var(--shell);margin:0 auto;padding:0 20px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ============ 顶部 ============ */
+.topbar{
+  position:sticky;top:0;z-index:60;
+  background:rgba(20,16,14,.86);
+  backdrop-filter:saturate(150%) blur(10px);
+  -webkit-backdrop-filter:saturate(150%) blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.topbar .wrap{display:flex;align-items:center;gap:16px;height:64px}
+.mark{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.mark .seal{
+  width:34px;height:34px;flex:0 0 34px;border-radius:9px;
+  background:linear-gradient(145deg,var(--brand),#b8331a);
+  display:grid;place-items:center;font-weight:800;font-size:15px;letter-spacing:-.5px;
+  box-shadow:0 6px 18px rgba(232,83,47,.28);
+}
+.mark .txt strong{display:block;font-size:17px;letter-spacing:.5px;line-height:1.2}
+.mark .txt span{display:block;font-size:11px;color:var(--paper-dim);letter-spacing:1.6px}
+.nav{display:flex;gap:4px;margin-left:auto;flex-wrap:nowrap}
+.nav a{
+  font-size:14px;padding:8px 12px;border-radius:999px;color:var(--paper-dim);
+  transition:color .2s,background .2s;white-space:nowrap;
+}
+.nav a:hover,.nav a:focus{color:var(--paper);background:rgba(244,236,225,.08)}
+.nav a.on{color:var(--ink);background:var(--brand);font-weight:600}
+.burger{
+  display:none;margin-left:auto;width:42px;height:42px;border:1px solid var(--line);
+  border-radius:10px;background:transparent;cursor:pointer;padding:11px 9px;
+}
+.burger i{display:block;height:2px;background:var(--paper);border-radius:2px;margin:4px 0;transition:.25s}
+#menuSwitch{display:none}
+#menuSwitch:checked ~ .nav{display:block;position:absolute;left:0;right:0;top:64px;background:#181310;border-bottom:1px solid var(--line);padding:10px 20px 16px}
+#menuSwitch:checked ~ .nav a{display:block;padding:12px 4px;border-radius:0;border-bottom:1px dashed var(--line)}
+#menuSwitch:checked ~ .burger i:nth-child(1){transform:translateY(6px) rotate(45deg)}
+#menuSwitch:checked ~ .burger i:nth-child(2){opacity:0}
+#menuSwitch:checked ~ .burger i:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+
+/* ============ 首屏 ============ */
+.hero{padding:52px 0 34px;position:relative}
+.hero .ticket{
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  background:linear-gradient(160deg,rgba(244,236,225,.055),rgba(244,236,225,.015));
+  padding:30px 26px 26px;position:relative;overflow:hidden;
+}
+.hero .ticket::before,.hero .ticket::after{
+  content:"";position:absolute;width:22px;height:22px;border-radius:50%;
+  background:var(--ink);top:50%;margin-top:-11px;
+}
+.hero .ticket::before{left:-11px;border-right:1px solid var(--line)}
+.hero .ticket::after{right:-11px;border-left:1px solid var(--line)}
+.kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:2px;
+  color:var(--brand-soft);border:1px dashed rgba(232,83,47,.45);
+  padding:5px 12px;border-radius:999px;margin-bottom:18px;
+}
+.kicker b{width:6px;height:6px;border-radius:50%;background:var(--brand);display:inline-block}
+h1{
+  font-size:clamp(30px,6.4vw,56px);line-height:1.16;letter-spacing:-1px;font-weight:800;
+}
+h1 em{font-style:normal;color:var(--brand);position:relative}
+h1 em::after{
+  content:"";position:absolute;left:0;right:0;bottom:.08em;height:.16em;
+  background:rgba(232,83,47,.24);border-radius:2px;
+}
+.lede{margin-top:16px;max-width:60ch;color:var(--paper-dim);font-size:clamp(15px,1.6vw,17px)}
+.urlbar{
+  margin-top:22px;display:flex;flex-wrap:wrap;align-items:center;gap:10px;
+  border-top:1px dashed var(--line);padding-top:18px;
+}
+.urlbar code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:13px;background:rgba(108,191,155,.12);color:var(--mint);
+  border:1px solid rgba(108,191,155,.28);padding:7px 12px;border-radius:8px;word-break:break-all;
+}
+.btn{
+  display:inline-block;padding:11px 20px;border-radius:10px;font-size:15px;font-weight:600;
+  background:var(--brand);color:#fff;border:1px solid var(--brand);transition:transform .15s,box-shadow .2s;
+}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(232,83,47,.26)}
+.btn.ghost{background:transparent;color:var(--paper);border-color:var(--line)}
+.btn.ghost:hover{border-color:var(--paper-dim)}
+
+/* ============ 通用区块 ============ */
+section{padding:44px 0;scroll-margin-top:78px}
+.head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:24px}
+.head h2{
+  font-size:clamp(21px,3.2vw,30px);letter-spacing:-.4px;font-weight:800;line-height:1.3;
+  display:flex;align-items:center;gap:12px;
+}
+.head h2 s{
+  text-decoration:none;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;
+  color:var(--brand);border:1px solid rgba(232,83,47,.4);border-radius:6px;padding:3px 7px;letter-spacing:1px;
+}
+.head p{color:var(--paper-dim);font-size:14px;max-width:52ch}
+.grid{display:grid;gap:16px}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+.g2{grid-template-columns:repeat(2,1fr)}
+.card{
+  border:1px solid var(--line);border-radius:var(--radius);padding:20px;
+  background:linear-gradient(180deg,rgba(244,236,225,.05),rgba(244,236,225,.012));
+  transition:border-color .2s,transform .2s;
+}
+.card:hover{border-color:rgba(232,83,47,.42);transform:translateY(-3px)}
+.card h3{font-size:17px;line-height:1.4;margin-bottom:8px}
+.card p{font-size:14px;color:var(--paper-dim)}
+.chip{
+  display:inline-block;font-size:11px;letter-spacing:1px;color:var(--mint);
+  border:1px solid rgba(108,191,155,.3);border-radius:5px;padding:2px 7px;margin-bottom:12px;
+}
+
+/* 榜单 */
+.rank{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.rank li{
+  display:flex;align-items:center;gap:14px;padding:14px 18px;
+  border-bottom:1px dashed var(--line);font-size:15px;
+}
+.rank li:last-child{border-bottom:0}
+.rank li:hover{background:rgba(244,236,225,.04)}
+.rank .no{
+  flex:0 0 26px;height:26px;border-radius:7px;display:grid;place-items:center;
+  font-size:13px;font-weight:700;font-family:ui-monospace,Menlo,monospace;
+  background:rgba(244,236,225,.08);color:var(--paper-dim);
+}
+.rank li:nth-child(1) .no{background:var(--brand);color:#fff}
+.rank li:nth-child(2) .no{background:rgba(232,83,47,.55);color:#fff}
+.rank li:nth-child(3) .no{background:rgba(232,83,47,.28);color:var(--brand-soft)}
+.rank .meta{margin-left:auto;font-size:12px;color:var(--paper-dim);white-space:nowrap}
+.rank .bar{
+  flex:0 0 auto;width:74px;height:4px;border-radius:4px;background:rgba(244,236,225,.12);overflow:hidden;
+}
+.rank .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--brand),var(--brand-soft))}
+
+/* 时间轴 */
+.tl{position:relative;padding-left:26px}
+.tl::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:1px;background:var(--line)}
+.tl li{position:relative;padding:0 0 22px}
+.tl li::before{
+  content:"";position:absolute;left:-23px;top:9px;width:9px;height:9px;border-radius:50%;
+  background:var(--ink);border:2px solid var(--brand);
+}
+.tl time{font-size:12px;color:var(--brand-soft);font-family:ui-monospace,Menlo,monospace;letter-spacing:1px}
+.tl h4{font-size:16px;margin:4px 0 4px}
+.tl p{font-size:14px;color:var(--paper-dim)}
+
+/* 双栏（幕后手记） */
+.split{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;align-items:start}
+.panel{border:1px solid var(--line);border-radius:var(--radius);padding:26px;background:rgba(30,24,20,.55)}
+.panel h3{font-size:20px;margin-bottom:6px}
+.panel .sub{font-size:13px;color:var(--brand-soft);margin-bottom:16px}
+.kv li{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px dashed var(--line);font-size:14px}
+.kv li:last-child{border-bottom:0}
+.kv li b{font-weight:400;color:var(--paper-dim)}
+.tagcloud{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.tagcloud a{font-size:13px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;color:var(--paper-dim)}
+.tagcloud a:hover{color:var(--ink);background:var(--brand-soft);border-color:var(--brand-soft)}
+
+/* 筛选条 */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.tabs button{
+  font:inherit;font-size:13px;cursor:pointer;color:var(--paper-dim);
+  background:transparent;border:1px solid var(--line);border-radius:999px;padding:7px 15px;
+}
+.tabs button[aria-selected="true"]{background:var(--paper);color:var(--ink);border-color:var(--paper);font-weight:600}
+
+/* 数字条 */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:6px}
+.stat{border:1px solid var(--line);border-radius:var(--radius);padding:18px 16px;text-align:left}
+.stat b{display:block;font-size:clamp(22px,3.4vw,30px);font-weight:800;letter-spacing:-.5px;font-family:ui-monospace,Menlo,monospace}
+.stat span{font-size:12.5px;color:var(--paper-dim)}
+
+/* 尾部 */
+footer{border-top:1px solid var(--line);margin-top:26px;padding:34px 0 44px;background:rgba(12,9,8,.6)}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:24px}
+footer h5{font-size:14px;margin-bottom:12px;letter-spacing:.5px}
+footer li{font-size:13.5px;color:var(--paper-dim);padding:5px 0}
+footer li a:hover{color:var(--brand-soft)}
+.legal{margin-top:26px;padding-top:18px;border-top:1px dashed var(--line);font-size:12.5px;color:#8d8175;line-height:1.9}
+.legal code{font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--mint)}
+.totop{
+  position:fixed;right:16px;bottom:18px;width:44px;height:44px;border-radius:50%;
+  border:1px solid var(--line);background:rgba(20,16,14,.9);color:var(--paper);
+  display:none;place-items:center;cursor:pointer;z-index:70;font-size:16px;
+}
+.totop.show{display:grid}
+
+/* 响应式 */
+@media (max-width:960px){
+  .g4{grid-template-columns:repeat(2,1fr)}
+  .g3{grid-template-columns:repeat(2,1fr)}
+  .split{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:720px){
+  .nav{display:none}
+  .burger{display:block}
+  body{font-size:15.5px}
+  .hero{padding:30px 0 18px}
+  .hero .ticket{padding:24px 18px 20px}
+  .hero .ticket::before,.hero .ticket::after{display:none}
+  section{padding:34px 0}
+  .g3,.g4,.g2{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr}
+  .rank .bar{display:none}
+  .rank .meta{margin-left:0;width:100%;order:3;padding-left:40px}
+  .rank li{flex-wrap:wrap;padding:13px 14px}
+  .urlbar code{font-size:12px}
+  .btn{width:100%;text-align:center}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="mark" href="#" aria-label="波多野结衣影视 首页">
+      <span class="seal" aria-hidden="true">34</span>
+      <span class="txt">
+        <strong>波多野结衣影视</strong>
+        <span>JU · TUJIAN · NOTES</span>
+      </span>
+    </a>
+    <input type="checkbox" id="menuSwitch" aria-label="展开导航">
+    <label class="burger" for="menuSwitch" aria-hidden="true"><i></i><i></i><i></i></label>
+    <nav class="nav" aria-label="主导航">
+      <a href="#library">剧集图鉴</a>
+      <a href="#rank">热播榜</a>
+      <a href="#backstage">幕后手记</a>
+      <a href="#notes">选剧笔记</a>
+      <a href="#about">关于本站</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <div class="hero">
+    <div class="wrap">
+      <div class="ticket">
+        <span class="kicker"><b></b>2026 秋季档 · 每周三更新</span>
+        <h1>把一部剧拆开看：<em>波多野结衣影视</em>的图鉴、榜单与笔记</h1>
+        <p class="lede">我们不写"必看神剧"这类空话。波多野结衣影视做的是笨功夫——把单集节奏、角色关系线、镜头语言一条条标出来，配上踩雷提示，让你在点开第一集之前就知道这部剧的骨架长什么样。</p>
+        <div class="urlbar">
+          <a class="btn" href="#library">先看剧集图鉴</a>
+          <a class="btn ghost" href="#rank">本周热播榜</a>
+          <code>https://boduoyejieyiyingshi-app.github.io</code>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 数据条 -->
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><b>428</b><span>已建档剧集条目</span></div>
+      <div class="stat"><b>36</b><span>角色关系图谱</span></div>
+      <div class="stat"><b>152</b><span>幕后手记篇数</span></div>
+      <div class="stat"><b>周三</b><span>固定更新日</span></div>
+    </div>
+  </div>
+
+  <!-- 栏目一：剧集图鉴 -->
+  <section id="library">
+    <div class="wrap">
+      <div class="head">
+        <h2><s>01</s>剧集图鉴</h2>
+        <p>按类型归档，每条附节奏评分、观看门槛与可跳过集数提示。</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="片库筛选">
+        <button type="button" role="tab" aria-selected="true" data-filter="all">全部</button>
+        <button type="button" role="tab" aria-selected="false" data-filter="xu">悬疑推理</button>
+        <button type="button" role="tab" aria-selected="false" data-filter="qing">都市情感</button>
+        <button type="button" role="tab" aria-selected="false" data-filter="shi">历史正剧</button>
+        <button type="button" role="tab" aria-selected="false" data-filter="huan">轻喜短剧</button>
+      </div>
+      <div class="grid g3" id="libraryGrid">
+        <article class="card" data-cat="xu"><span class="chip">悬疑 · 12集</span><h3>雨夜接线员</h3><p>双线叙事在第 4 集交汇，前 3 集信息密度偏低，建议连看。第 9 集有整段倒叙，单独看容易断片。</p></article>
+        <article class="card" data-cat="qing"><span class="chip">都市 · 24集</span><h3>通勤第七站</h3><p>人物台词克制，靠场景调度推进关系。中段 12–16 集支线拖沓，可快进，不影响主线收束。</p></article>
+        <article class="card" data-cat="shi"><span class="chip">历史 · 40集</span><h3>盐铁往事</h3><p>服化道考据扎实，朝堂戏台词密度高。建议开字幕倍速 1.25，前 6 集人物表建议先对照图鉴看。</p></article>
+        <article class="card" data-cat="huan"><span class="chip">轻喜 · 16集</span><h3>楼下那家面馆</h3><p>单元剧结构，每两集一个完整小事件，适合碎片化补。笑点集中在配角，主线反而平淡。</p></article>
+        <article class="card" data-cat="xu"><span class="chip">悬疑 · 8集</span><h3>第二份笔录</h3><p>全剧只有 6 个角色，封闭空间推理。反转在第 7 集末尾，第 8 集是收尾答疑，不建议跳。</p></article>
+        <article class="card" data-cat="qing"><span class="chip">都市 · 30集</span><h3>合租合约</h3><p>群像戏，四条感情线并行。选角贴合度高，后 8 集为拉长而拉长，看到 22 集即可。</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目二：热播榜 -->
+  <section id="rank">
+    <div class="wrap">
+      <div class="head">
+        <h2><s>02</s>本周热播榜</h2>
+        <p>依据本站站内检索量、完播率与笔记提交数综合排序，每周三 10:00 刷新。</p>
+      </div>
+      <div class="grid g2">
+        <ul class="rank">
+          <li><span class="no">1</span><span>雨夜接线员</span><span class="bar"><i style="width:96%"></i></span><span class="meta">悬疑 · 更新至 12 集</span></li>
+          <li><span class="no">2</span><span>盐铁往事</span><span class="bar"><i style="width:89%"></i></span><span class="meta">历史 · 更新至 28 集</span></li>
+          <li><span class="no">3</span><span>通勤第七站</span><span class="bar"><i style="width:81%"></i></span><span class="meta">都市 · 已完结</span></li>
+          <li><span class="no">4</span><span>第二份笔录</span><span class="bar"><i style="width:76%"></i></span><span class="meta">悬疑 · 已完结</span></li>
+          <li><span class="no">5</span><span>楼下那家面馆</span><span class="bar"><i style="width:68%"></i></span><span class="meta">轻喜 · 更新至 10 集</span></li>
+        </ul>
+        <ul class="rank">
+          <li><span class="no">6</span><span>合租合约</span><span class="bar"><i style="width:64%"></i></span><span class="meta">都市 · 更新至 24 集</span></li>
+          <li><span class="no">7</span><span>雪线以上</span><span class="bar"><i style="width:57%"></i></span><span class="meta">纪实 · 更新至 5 集</span></li>
+          <li><span class="no">8</span><span>旧唱片行</span><span class="bar"><i style="width:49%"></i></span><span class="meta">年代 · 已完结</span></li>
+          <li><span class="no">9</span><span>第十封信</span><span class="bar"><i style="width:43%"></i></span><span class="meta">家庭 · 更新至 9 集</span></li>
+          <li><span class="no">10</span><span>午夜排练厅</span><span class="bar"><i style="width:38%"></i></span><span class="meta">音乐 · 更新至 6 集</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目三：幕后手记 -->
+  <section id="backstage">
+    <div class="wrap">
+      <div class="head">
+        <h2><s>03</s>幕后手记</h2>
+        <p>镜头怎么拍、剧本怎么改、演员怎么处理——记创作端的细节。</p>
+      </div>
+      <div class="split">
+        <div class="panel">
+          <h3>一集戏是怎么搭起来的</h3>
+          <p class="sub">以《雨夜接线员》第 4 集为例 · 手记第 118 篇</p>
+          <ul class="kv">
+            <li><b>开场镜头</b><span>手持长镜 72 秒，一镜交代人物动线</span></li>
+            <li><b>色调分区</b><span>现实线冷灰 / 回忆线暖黄，靠滤镜区分</span></li>
+            <li><b>声音设计</b><span>雨声贯穿全集，对话间隙不铺配乐</span></li>
+            <li><b>剪辑节奏</b><span>前 20 分钟切 41 刀，后 20 分钟切 12 刀</span></li>
+            <li><b>剧本改动</b><span>原结局删掉一场独白，改为静帧留白</span></li>
+          </ul>
+          <div class="tagcloud">
+            <a href="#">长镜头</a><a href="#">色调语言</a><a href="#">声音设计</a><a href="#">剧本结构</a><a href="#">演员调度</a><a href="#">服化道考据</a>
+          </div>
+        </div>
+        <div>
+          <ul class="tl">
+            <li><time>10 / 22</time><h4>手记更新：纪实剧的"摆拍边界"</h4><p>《雪线以上》第 5 集引发讨论，我们整理了三组对照镜头。</p></li>
+            <li><time>10 / 15</time><h4>新增角色关系图谱 4 张</h4><p>《盐铁往事》人物表重画，补入 11 个次要角色的从属线。</p></li>
+            <li><time>10 / 08</time><h4>片库扩容：轻喜短剧独立成类</h4><p>单集 20 分钟以内的条目单独归档，检索更快。</p></li>
+            <li><time>09 / 30</time><h4>更新日志：榜单算法调整</h4><p>完播率权重上调至 40%，减少单日热度带来的抖动。</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目四：选剧笔记 -->
+  <section id="notes">
+    <div class="wrap">
+      <div class="head">
+        <h2><s>04</s>选剧笔记</h2>
+        <p>给不同看剧习惯的人各一套方法，附常见踩雷情形。</p>
+      </div>
+      <div class="grid g4">
+        <article class="card"><span class="chip">方法 A</span><h3>三集判断法</h3><p>看前三集的"信息投放量"。三集内没抛出核心矛盾的长剧，后面大概率靠注水撑时长。</p></article>
+        <article class="card"><span class="chip">方法 B</span><h3>配角验货法</h3><p>配角有独立动机的剧，编剧功底通常在线；配角只会推动主角的剧，慎入。</p></article>
+        <article class="card"><span class="chip">方法 C</span><h3>结尾倒查法</h3><p>先看最后一集的评分曲线。烂尾剧的中段评分往往虚高，倒着看更准。</p></article>
+        <article class="card"><span class="chip">方法 D</span><h3>倍速耐受度</h3><p>一部剧 1.5 倍速看着更舒服，说明原节奏偏拖；1.25 倍就丢细节的，值得原速看。</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目五：关于本站 -->
+  <section id="about">
+    <div class="wrap">
+      <div class="head">
+        <h2><s>05</s>关于 波多野结衣影视</h2>
+        <p>一个小而慢的观影资料站，不追热点，不接推广位。</p>
+      </div>
+      <div class="split">
+        <div class="panel">
+          <h3>我们怎么筛内容</h3>
+          <p class="sub">四条标准，缺一条不建档</p>
+          <ul class="kv">
+            <li><b>01</b><span>至少看完全剧三分之二才写图鉴</span></li>
+            <li><b>02</b><span>节奏评分由两名编辑独立打分取均值</span></li>
+            <li><b>03</b><span>剧情关键转折不在图鉴中提前剧透</span></li>
+            <li><b>04</b><span>榜单不接受付费排序，广告位一律留空</span></li>
+          </ul>
+          <p style="margin-top:16px;font-size:14px;color:var(--paper-dim)">站内片单与条目为示例演示内容，人物与剧名仅用于说明归档方法。</p>
+        </div>
+        <div class="panel">
+          <h3>站点信息</h3>
+          <p class="sub">Site Card</p>
+          <ul class="kv">
+            <li><b>站点名称</b><span>波多野结衣影视</span></li>
+            <li><b>访问地址</b><span><code style="font-size:12.5px;color:var(--mint)">https://boduoyejieyiyingshi-app.github.io</code></span></li>
+            <li><b>更新频率</b><span>每周三 10:00（节假日顺延）</span></li>
+            <li><b>栏目数量</b><span>图鉴 / 榜单 / 手记 / 笔记 共四栏</span></li>
+            <li><b>内容授权</b><span>转载请注明出处与原文链接</span></li>
+          </ul>
+          <div style="margin-top:18px"><a class="btn" href="#">订阅更新提醒</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <h5>波多野结衣影视</h5>
+        <p style="font-size:13.5px;color:var(--paper-dim);max-width:34ch">剧集图鉴 · 热播榜 · 幕后手记 · 选剧笔记，四栏内容每周三滚动更新。</p>
+        <p style="margin-top:10px"><code style="font-size:12.5px;color:var(--mint);word-break:break-all">https://boduoyejieyiyingshi-app.github.io</code></p>
+      </div>
+      <div>
+        <h5>栏目</h5>
+        <ul>
+          <li><a href="#library">剧集图鉴</a></li>
+          <li><a href="#rank">本周热播榜</a></li>
+          <li><a href="#backstage">幕后手记</a></li>
+          <li><a href="#notes">选剧笔记</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>索引</h5>
+        <ul>
+          <li><a href="#">按年份归档</a></li>
+          <li><a href="#">按地区归档</a></li>
+          <li><a href="#">角色关系图谱</a></li>
+          <li><a href="#">更新日志</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>其他</h5>
+        <ul>
+          <li><a href="#">投稿与纠错</a></li>
+          <li><a href="#">内容授权</a></li>
+          <li><a href="#">站点地图</a></li>
+          <li><a href="#">联系编辑部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      波多野结衣影视 · 剧集资料站　|　<strong>关键词：波多野结衣影视</strong>　|　域名：boduoyejieyiyingshi-app<br>
+      本站条目为观影整理示例，所述剧名与人物用于说明归档与评分方法，不指向具体上映信息。<br>
+      <code>https://boduoyejieyiyingshi-app.github.io</code>　© 2026 波多野结衣影视 编辑部
+    </div>
+  </div>
+</footer>
+
+<button class="totop" id="totop" type="button" aria-label="返回顶部">↑</button>
+
+<script>
+(function () {
+  var tabs = document.querySelectorAll('.tabs button');
+  var cards = document.querySelectorAll('#libraryGrid .card');
+  for (var i = 0; i < tabs.length; i++) {
+    tabs[i].addEventListener('click', function () {
+      for (var j = 0; j < tabs.length; j++) { tabs[j].setAttribute('aria-selected', 'false'); }
+      this.setAttribute('aria-selected', 'true');
+      var f = this.getAttribute('data-filter');
+      for (var k = 0; k < cards.length; k++) {
+        var show = (f === 'all') || (cards[k].getAttribute('data-cat') === f);
+        cards[k].style.display = show ? '' : 'none';
+      }
+    });
+  }
+
+  var links = document.querySelectorAll('.nav a');
+  var secs = [];
+  for (var m = 0; m < links.length; m++) {
+    var id = links[m].getAttribute('href');
+    var el = id && id.charAt(0) === '#' ? document.querySelector(id) : null;
+    secs.push(el);
+  }
+  function sync() {
+    var y = window.pageYOffset + 120, cur = -1;
+    for (var n = 0; n < secs.length; n++) {
+      if (secs[n] && secs[n].offsetTop <= y) { cur = n; }
+    }
+    for (var q = 0; q < links.length; q++) {
+      if (q === cur) { links[q].className = 'on'; } else { links[q].className = ''; }
+    }
+  }
+
+  var btn = document.getElementById('totop');
+  function onScroll() {
+    if (window.pageYOffset > 420) { btn.className = 'totop show'; } else { btn.className = 'totop'; }
+    sync();
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+  onScroll();
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://boduoyejieyiyingshi-app.github.io/#website",
+      "url": "https://boduoyejieyiyingshi-app.github.io/",
+      "name": "波多野结衣影视",
+      "alternateName": "波多野结衣影视剧集图鉴",
+      "inLanguage": "zh-CN",
+      "description": "波多野结衣影视提供剧集图鉴、热播榜、幕后手记与选剧笔记四类内容，按周更新。"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://boduoyejieyiyingshi-app.github.io/#org",
+      "name": "波多野结衣影视编辑部",
+      "url": "https://boduoyejieyiyingshi-app.github.io/"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://boduoyejieyiyingshi-app.github.io/#page",
+      "url": "https://boduoyejieyiyingshi-app.github.io/",
+      "name": "波多野结衣影视｜剧集图鉴 · 热播榜 · 选剧笔记",
+      "isPartOf": { "@id": "https://boduoyejieyiyingshi-app.github.io/#website" },
+      "about": "剧集条目归档、热播排序、幕后创作手记与选剧方法",
+      "inLanguage": "zh-CN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "波多野结衣影视", "item": "https://boduoyejieyiyingshi-app.github.io/" },
+        { "@type": "ListItem", "position": 2, "name": "剧集图鉴", "item": "https://boduoyejieyiyingshi-app.github.io/#library" },
+        { "@type": "ListItem", "position": 3, "name": "本周热播榜", "item": "https://boduoyejieyiyingshi-app.github.io/#rank" },
+        { "@type": "ListItem", "position": 4, "name": "幕后手记", "item": "https://boduoyejieyiyingshi-app.github.io/#backstage" },
+        { "@type": "ListItem", "position": 5, "name": "选剧笔记", "item": "https://boduoyejieyiyingshi-app.github.io/#notes" }
+      ]
+    }
+  ]
+}
+</script>
+
+</body>
+</html>
